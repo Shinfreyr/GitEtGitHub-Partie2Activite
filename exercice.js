@@ -35,3 +35,8 @@ while (i<nombreN){
     tableauLs=[];
     i++;
 }
+
+//affichage du tableau
+tableauFs.forEach(function (tableauF){
+    console.log(tableauF);
+});
